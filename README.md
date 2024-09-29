@@ -7,6 +7,8 @@ The primary objectives of this repository are:
 
 Through this analysis, we contributed to the growing body of knowledge in women’s sports analytics, assisting teams in crafting effective strategies and improving overall competition. As the PWHL continues to evolve, this repository serves as a foundation for further enhancements and insights with the data from future seasons.
 
+The machine learning models used to train the expected goal model and win prediction model are not included in this repository. However, all data needed to run the scripts or to create an expected goal model or win prediction model are present.
+
 ## File Breakdown
 ### fixing_shots.R
 This script is responsible for cleaning and processing shot data from PWHL games. It includes steps to gather play-by-play data, filter out shot attempts, and adjust shot coordinates to correct any inaccuracies in the dataset. Key components of this script include:
