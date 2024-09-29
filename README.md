@@ -24,6 +24,9 @@ This script handles shot data from the NHL for the seasons 2014-2022. Similar to
 ### PWHL_Rolling_Avg_Analysis.R
 This script transforms play-by-play data from each game into a set of rolling weighted statistics for each team. The weighted statistics on a game-by-game basis are saved to be used in GraphCreation.R to visualize the progression of the statistics for each team at every game in the season. Key components of this script include:
 * **Data Loading**: Loads in deatiled play-by-play data for each game.
-*
+* **Calculating Rolling Averages** For each statistic, rolling averages were calculated on a game-by-game basis. Linear decay weighting was applied where more recent games are weighted more heavily.
+* **Data Preparation For Plotting**: The weighted statistic data for each team was convieniently saved to csv files which are then to be used in GraphCreation.R to visualize these statistics.
 ### GraphCreation.R
-This script is creates the graphs showing the progression of the weighted statistics 
+This script visualizes the rolling weighted statistics throughout the season on a game-by-game basis.
+* **Data Loading**: Loads in weighted statistics data for each game.
+* **Visualization**: Generates rolling weighted statistics plots, allowing for a visual analysis of the strengths of each team throughout the season.
