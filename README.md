@@ -3,8 +3,9 @@ Welcome to the PWHL Advanced Analytics repository! This project focuses on integ
 
 The primary objectives of this repository are:
 * **Exploratory Data Analysis**: Compare expected goals (xG) between the PWHL and the NHL, providing insights into the performance of teams in the inaugural PWHL season.
-* **Win Prediction Model**: Develop and evaluate a win prediction model using gradient boosting and logistic regression, leveraging critical metrics such as expected goals, shooting percentage, and save percentage.
-Through our analysis, we aim to contribute to the growing body of knowledge in women’s sports analytics, assisting teams in crafting effective strategies and improving overall competition. As the PWHL continues to evolve, this repository will serve as a foundation for further enhancements and insights with the data from future seasons.
+* **Win Prediction Model**: Developed and evaluated a win prediction model using gradient boosting and logistic regression, leveraging critical metrics such as expected goals, shooting percentage, and save percentage.
+
+Through this analysis, we contributed to the growing body of knowledge in women’s sports analytics, assisting teams in crafting effective strategies and improving overall competition. As the PWHL continues to evolve, this repository serves as a foundation for further enhancements and insights with the data from future seasons.
 
 ## File Breakdown
 ### fixing_shots.R
