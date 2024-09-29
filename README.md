@@ -20,7 +20,7 @@ This script processes shot data specifically from the PWHL for the 2024 season. 
 * **Data Loading**: Loads cleaned shot data into the environment.
 * **Visualization**: Generates shot location plots, allowing for a visual analysis of where shots are taken during games.
 ### NHL_Shots_Analysis.R
-This script handles shot data from the NHL for the seasons 2014-2022. Similar to the PWHL analysis, it visualizes shot locations on the rink, helping to identify trends and patterns. Key components of this script include:
+This script handles shot data from the NHL for the seasons 2014-2022. Similar to the PWHL analysis, it visualizes shot locations on the rink, helping to identify trends and patterns. The shot data used here can be accessed via `https://moneypuck.com/data.htm`. Save this file in the `data` folder. Key components of this script include:
 ** **Data Loading**: Loads cleaned shot data into the environment.
 * **Visualization**: Generates shot location plots, allowing for a visual analysis of where shots are taken during games.
 ### PWHL_Rolling_Avg_Analysis.R
