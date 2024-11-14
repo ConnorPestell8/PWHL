@@ -32,3 +32,9 @@ This script transforms play-by-play data from each game into a set of rolling we
 This script visualizes the rolling weighted statistics throughout the season on a game-by-game basis.
 * **Data Loading**: Loads in weighted statistics data for each game.
 * **Visualization**: Generates rolling weighted statistics plots, allowing for a visual analysis of the strengths of each team throughout the season.
+### xGoal_Project.ipynb
+This script creates an expected goal model based on the (x, y) locations of a given shot on the ice. This was used to create the expected goal models for the NHL and PWHL. Gradient boosting was used to train the expected goal model.
+### PWHL_Win_Prediction_Model.ipynb
+This script uses gradient boosting andd logistic regression to create a win prediction model for the first season of the PWHL. 
+
+
